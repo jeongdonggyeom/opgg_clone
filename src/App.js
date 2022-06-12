@@ -1,9 +1,11 @@
 import Nav from "./component/Nav"
+import Main from "./component/Main";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Nav/>
+        <Main/>
     </div>
   );
 }

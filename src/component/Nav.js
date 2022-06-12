@@ -12,7 +12,7 @@ function Nav(){
                     <span className={"nav--loldiv--text"}>리그오브레전드</span>
                 </div>
                 <div className={"nav--duodiv"}>
-                    <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-duo-gray.svg?image=q_auto,f_webp,w_48&v=1654157118862"} className={"nav--duoicon"} alt={"icon"}/>
+                    <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-duo-gray.svg?image=q_auto,f_webp,w_48&v=1654157118862"} className={"nav--duoicon_special"} alt={"icon"}/>
                     <span className={"nav--duodiv--text"}>
                         <p>N</p>
                     </span>

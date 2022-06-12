@@ -9,24 +9,24 @@
     background-color: #28344E;
 }
 .nav--opggLogo{
-    padding-left: 20px;
+    padding-left: 16px;
     width: 65px;
     height: 40px;
     background-color: #5383E8;
 }
 .nav--lolLogo {
     padding-left: 20px;
-    width: 25px;
-    height: 25px;
+    width: 24px;
+    height: 24px;
 }
 .nav--loldiv{
     display: flex;
     background-color: #5383E8;
     align-items: center;
-    padding-right: 10px;
+    padding-right: 12px;
 }
 .nav--loldiv--text{
-    padding-left: 10px;
+    padding-left: 8px;
     color: white;
 }
 .nav--duodiv{
@@ -35,13 +35,18 @@
     background-color: #28344E;
     align-items: center;
     margin-top: 5px;
-    padding-right: 8px;
+    padding-right: 10px;
 }
 .nav--duodiv:hover{
     background-color: #2F436E;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .nav--duoicon{
+    padding-left: 15px;
+    width: 25px;
+    height: 25px;
+}
+.nav--duoicon_special{
     padding-left: 13px;
     width: 25px;
     height: 25px;
@@ -49,18 +54,20 @@
 .nav--duodiv > span{
     color: #C3CBD1;
     padding-left: 5px;
-    font-weight: bold;
+    font-weight: 400;
 }
 .nav--duodiv--text{
     margin-left: 8px;
     background-color: #FFB900;
     border-radius: 50%;
-    width: 15px;
-    height: 20px;
+    width: 12px;
+    height: 16px;
+    font-weight: bold;
 }
 .nav--duodiv--text > p{
     margin: 0 auto;
     color: black;
+    font-weight: bold;
 }
 .nav--language{
     display: flex;
@@ -93,7 +100,7 @@
 .nav--login--button{
     background-color: #5383E8;
     border: none;
-    height: 27px;
+    height: 26px;
     width: 65px;
     border-radius: 5px;
     color: white;
