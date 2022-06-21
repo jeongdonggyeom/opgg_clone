@@ -1,13 +1,13 @@
 import '../styleComponent/community.css'
 
-function Community() {
-    return (
+function Community(){
+    return(
         <div className={"community"}>
             <span className={"community--title"}>OP.GG Talk 인기글</span>
             <div className={"content-grid"}>
                 <div className={"community--content"}>
                     <p className={"community--content--index"}>1</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -21,7 +21,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index"}>2</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -35,7 +35,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index"}>3</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -49,7 +49,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index2"}>4</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -63,7 +63,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index2"}>5</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -77,7 +77,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index2"}>6</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -91,7 +91,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index2"}>7</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -105,7 +105,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index2"}>8</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -119,7 +119,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index2"}>9</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>
@@ -133,7 +133,7 @@ function Community() {
                 </div>
                 <div className={"community--content"}>
                     <p className={"community--content--index2"}>10</p>
-                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"} />
+                    <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
                         <div className={"community--content--title"}>
                             <a href={"/"} className={"community--content--title--text"}>풍경 지린다</a>

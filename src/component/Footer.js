@@ -1,7 +1,7 @@
-import '../styleComponent/Footer.css'
+import '../styleComponent/footer.css'
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <footer>
             <div className='letter'>
                 <div className="spans">
