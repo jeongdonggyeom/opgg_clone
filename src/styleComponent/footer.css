@@ -1,0 +1,22 @@
+footer{
+    background-color: #5383E8;
+}
+
+.spans > span{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    padding: 30px 15px;
+}
+
+.copyright > p{
+    font-size: 10.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 5px;
+}
+
+.letter{
+    margin: 0px 94.4px;
+    padding: 40px 0px;
+}

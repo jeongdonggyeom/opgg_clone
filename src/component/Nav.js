@@ -1,6 +1,14 @@
-import "../styleComponent/nav.css"
+import "../styleComponent/nav.css";
+import { useState } from 'react';
+import Modal from "./Modal";
 
 function Nav(){
+
+    const [modal, setModal] = useState(false);
+    const mo = () => {
+        setModal(modal ? false : true);
+    }
+
     return(
         <div>
             <nav className={"div--nav"}>
@@ -44,20 +52,23 @@ function Nav(){
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img_navi_bs.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>이터널 리턴</span>
                 </div>
-                <div className={"nav--duodiv"}>
+                <div className={"nav--duodiv2"}>
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-talk-gray.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>톡피지지</span>
                 </div>
-                <div className={"nav--duodiv"}>
+                <div className={"nav--duodiv2"}>
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/01-icon-00-logo-icon-opggsquare.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>데스크톱</span>
                 </div>
-                <button className={"nav--change"}>
-                    <img src={"https://s-lol-web.op.gg/images/icon/icon-darkmode.svg?image=q_auto,f_webp,w_48&v=1654157118674"} alt={"icon"}/>
+                <button className="moreButton" onClick={mo}>
+                    <img src="https://s-lol-web.op.gg/images/icon/icon-more.svg?v=1655280878465" className="moreButton--img" alt="icon" />
                 </button>
+                {/* <button className={"nav--change"}>
+                    <img src={"https://s-lol-web.op.gg/images/icon/icon-darkmode.svg?image=q_auto,f_webp,w_48&v=1654157118674"} alt={"icon"}/>
+                </button> */}
                 <div className={"nav--language"}>
                     <img src={"https://s-lol-web.op.gg/images/icon/icon-world-light-blue.svg?v=1654157118862"} className={"nav--language--img"} alt={"icon"}/>
-                    <button className={"nav--language--button"}>
+                    <button className={"nav--language--button"} >
                         <span>한국어</span>
                         <img src={"triangle.png"} alt={"icon"} className={"nav--language--triangle"} />
                     </button>
@@ -98,6 +109,7 @@ function Nav(){
                     <a href={"/"} className={"div--nav2--link"}>커뮤니티</a>
                 </div>
             </nav>
+            {modal ? <Modal /> : <div></div>}
         </div>
     )
 }

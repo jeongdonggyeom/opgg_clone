@@ -1,14 +1,16 @@
 import Nav from "./component/Nav"
 import Main from "./component/Main";
 import Community from "./component/Community";
-import './styleComponent/app.css'
+import Footer from './component/Footer';
+import './App.css';
 
 function App() {
   return (
-    <div className={"root-div"}>
+    <div className="root-div" >
       <Nav/>
         <Main/>
         <Community />
+        <Footer />
     </div>
   );
 }

@@ -16,6 +16,7 @@
     border-radius: 3px;
     border: none;
     outline: none;
+    
 }
 
 .search--text::placeholder{
@@ -54,5 +55,7 @@
     margin-right: 80px;
 }
 .search--triangle{
-
+    padding-left: 5px;
+    width: 13px;
+    height: 8px;
 }

@@ -9,7 +9,7 @@ function Main(){
                     <input type="text" placeholder="소환사명, 소환사명, ..." className="search--text"></input>
                     <button className="search--gg">.GG</button>
                     <button className="search--kr">KR</button>
-                    <img src={"triangle.png"} alt={"icon"} className={"search--triangle"}/>
+                    <img src={"triangle2.png"} alt={"icon"} className={"search--triangle"}/>
                 </div>
             </div>
 
