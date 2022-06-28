@@ -1,18 +1,10 @@
-.modal{
-    width: 384px;
-    height: 188px;
-    position:absolute;
-    background-color: #28344E;
-    border-radius: 5px;
-}
 .modalDuo{
-    margin-top: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 62px;
 }
 .modalDuo--img{
+    position: relative;
     background-color: #2F436E;
     width: 50px; 
     height: 50px;
@@ -26,12 +18,44 @@
     height: 35px;
 }
 .modalDuo--img > span{
-    position:relative;
+    position: absolute;
+    bottom: 36px;
+    left: 38px;
     background-color: #FFB900;
     border-radius: 50%;
     font-size: 12px;
     width: 15px;
     height: 15px;
+    font-weight: 500;
+}
+.modalText{
+    color: white;
+    padding-top: 3px;
+    font-size: 8px;
     display: flex;
     justify-content: center;
+    font-weight: 300;
+}
+.modalDuo--div{
+    text-align: center;
+}
+@media screen and (max-width: 1920px) {
+    .modal{
+        display: none;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1280px) {
+    .modal{
+        width: 384px;
+        height: 188px;
+        position:absolute;
+        background-color: #28344E;
+        z-index: 2;
+        margin-left: 630px;
+        top: 39px;
+        box-shadow: 0 8px 12px 0 rgb(0 0 0 / 30%);
+        display: grid;
+        grid-template-rows: repeat(2, 92px);
+        grid-template-columns: repeat(5, 70px);
+    }
 }

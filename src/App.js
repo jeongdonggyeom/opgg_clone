@@ -1,17 +1,16 @@
-import Nav from "./component/Nav"
-import Main from "./component/Main";
-import Community from "./component/Community";
-import Footer from './component/Footer';
+import Page from './component/Page';
 import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Search from './component/search';
 
 function App() {
   return (
-    <div className="root-div" >
-      <Nav/>
-        <Main/>
-        <Community />
-        <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Page/>} />
+        <Route path="/search" element={<Search/>}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
