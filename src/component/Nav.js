@@ -19,47 +19,47 @@ function Nav(){
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-lol-white.svg?image=q_auto,f_webp,w_48&v=1654157118862"} className={"nav--lolLogo"} alt={"icon"}/>
                     <span className={"nav--loldiv--text"}>리그오브레전드</span>
                 </div>
-                <div className={"nav--duodiv"}>
+                <a className={"nav--duodiv"} href="https://duo.op.gg/">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-duo-gray.svg?image=q_auto,f_webp,w_48&v=1654157118862"} className={"nav--duoicon_special"} alt={"icon"}/>
                     <span className={"nav--duodiv--text"}>
                         <p>N</p>
                     </span>
                     <span>Duo</span>
-                </div>
-                <div className={"nav--duodiv"}>
+                </a>
+                <a className={"nav--duodiv"} href="https://qwer.gg/ko">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/opgg%20favicon%20white_220107.svg?image=q_auto,f_webp,w_48&v=1654157118862"} className={"nav--duoicon"} alt={"icon"}/>
                     <span className={"nav--duodiv--text"}>
                         <p>N</p>
                     </span>
-                    <span>QWER (이스포츠전적)</span>
-                </div>
-                <div className={"nav--duodiv"}>
+                    <span>QWER (이스포츠 전적)</span>
+                </a>
+                <a className={"nav--duodiv"} href="https://valorant.op.gg/">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-valorant-white.svg?image=q_auto,f_webp,w_48&v=1654157118862"} className={"nav--duoicon"} alt={"icon"}/>
                     <span className={"nav--duodiv--text"}>
                         <p>B</p>
                     </span>
                     <span>발로란트</span>
-                </div>
-                <div className={"nav--duodiv"}>
+                </a>
+                <a className={"nav--duodiv"} href="https://pubg.op.gg/">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-pubg-gray.svg?image=q_auto,f_webp,w_48&v=1654157118862"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>배틀그라운드</span>
-                </div>
-                <div className={"nav--duodiv"}>
+                </a>
+                <a className={"nav--duodiv"} href="https://overwatch.op.gg/">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-overwatch-gray.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>오버워치</span>
-                </div>
-                <div className={"nav--duodiv"}>
+                </a>
+                <a className={"nav--duodiv"} href="https://er.op.gg/">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img_navi_bs.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>이터널 리턴</span>
-                </div>
-                <div className={"nav--duodiv2"}>
+                </a>
+                <a className={"nav--duodiv2"} href="https://talk.op.gg/">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-talk-gray.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>톡피지지</span>
-                </div>
-                <div className={"nav--duodiv2"}>
+                </a>
+                <a className={"nav--duodiv2"} href="https://op.gg/desktop/">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/01-icon-00-logo-icon-opggsquare.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>데스크톱</span>
-                </div>
+                </a>
                 <button className="moreButton" onClick={mo}>
                     <img src="https://s-lol-web.op.gg/images/icon/icon-more.svg?v=1655280878465" className="moreButton--img" alt="icon" />
                 </button>
@@ -85,10 +85,7 @@ function Nav(){
                     <a href={"/"} className={"div--nav2--link"}>챔피언 분석</a>
                 </div>
                 <div className={"div--nav2--under"}>
-                    <a href={"/"} className={"div--nav2--link2"}>칼바람</a>
-                </div>
-                <div className={"div--nav2--under"}>
-                    <a href={"/"} className={"div--nav2--link2"}>우르프</a>
+                    <a href={"/"} className={"div--nav2--link2"}>게임 모드</a>
                 </div>
                 <div className={"div--nav2--under"}>
                     <a href={"/"} className={"div--nav2--link"}>통계</a>
@@ -101,9 +98,6 @@ function Nav(){
                 </div>
                 <div className={"div--nav2--under"}>
                     <a href={"/"} className={"div--nav2--link"}>멀티서치</a>
-                </div>
-                <div className={"div--nav2--under"}>
-                    <a href={"/"} className={"div--nav2--link"}>OP셜</a>
                 </div>
                 <div className={"div--nav2--under"}>
                     <a href={"/"} className={"div--nav2--link"}>커뮤니티</a>
