@@ -5,7 +5,7 @@ function Community(){
         <div className={"community"}>
             <span className={"community--title"}>OP.GG Talk 인기글</span>
             <div className={"content-grid"}>
-                <div className={"community--content"}>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index"}>1</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -18,8 +18,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index"}>2</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -32,8 +32,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index"}>3</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -46,8 +46,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index2"}>4</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -60,8 +60,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index2"}>5</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -74,8 +74,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index2"}>6</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -88,8 +88,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index2"}>7</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -102,8 +102,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index2"}>8</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -116,8 +116,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index2"}>9</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -130,8 +130,8 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
-                <div className={"community--content"}>
+                </a>
+                <a className={"community--content"} href="localhost:3000">
                     <p className={"community--content--index2"}>10</p>
                     <img src={"test.jpg"} className={"community--content--thumbnail"} alt={"icon"}/>
                     <div className={"content"}>
@@ -144,7 +144,7 @@ function Community(){
                             <span className={"community--content--user"}>Urdr</span>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     )
