@@ -63,10 +63,8 @@ function Nav(){
                 <button className="moreButton" onClick={mo}>
                     <img src="https://s-lol-web.op.gg/images/icon/icon-more.svg?v=1655280878465" className="moreButton--img" alt="icon" />
                 </button>
-                {/* <button className={"nav--change"}>
-                    <img src={"https://s-lol-web.op.gg/images/icon/icon-darkmode.svg?image=q_auto,f_webp,w_48&v=1654157118674"} alt={"icon"}/>
-                </button> */}
                 <div className={"nav--language"}>
+                    <img className="nav--language-mode" src="https://s-lol-web.op.gg/images/icon/icon-lightmode.svg?image=q_auto,f_webp,w_48&v=1658292954524https://s-lol-web.op.gg/images/icon/icon-lightmode.svg?image=q_auto,f_webp,w_48&v=1658292954524" alt="icon"/>
                     <img src={"https://s-lol-web.op.gg/images/icon/icon-world-light-blue.svg?v=1654157118862"} className={"nav--language--img"} alt={"icon"}/>
                     <button className={"nav--language--button"} >
                         <span>한국어</span>
