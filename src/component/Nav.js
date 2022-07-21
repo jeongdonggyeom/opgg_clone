@@ -48,7 +48,7 @@ function Nav(){
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img-navi-overwatch-gray.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>오버워치</span>
                 </a>
-                <a className={"nav--duodiv"} href="https://er.op.gg/">
+                <a className={"nav--duodiv2"} href="https://er.op.gg/">
                     <img src={"https://opgg-gnb.akamaized.net/static/images/icons/img_navi_bs.svg?image=q_auto,f_webp,w_64&v=1654157118674"} className={"nav--duoicon"} alt={"icon"}/>
                     <span>이터널 리턴</span>
                 </a>
