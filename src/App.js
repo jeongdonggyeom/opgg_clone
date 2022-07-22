@@ -1,5 +1,6 @@
 import Page from './component/Page';
-import './App.css';
+import './styleComponent/app.css';
+import './styleComponent/darkmode.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Search from './component/search';
 

@@ -85,7 +85,7 @@
     padding-right: 5px;
 }
 .nav--language-mode{
-    margin-right: 8px;
+    cursor: pointer;
 }
 .nav--language--button{
     background-color: #28344E;

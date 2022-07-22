@@ -3,11 +3,22 @@ import '../styleComponent/community.css'
 function Community(){   
 
     const cEl = document.querySelectorAll('.community--content');
-    for(let i=0;i<cEl.length;i++){
-        cEl[i].addEventListener("mouseenter", ()=>{
-            
+
+    const changeStyle = (index, flag) => {
+        if(flag){
+            cEl[index-1].style.color = "white"
+            return ;
+        }
+        
+        return ;
+    }
+
+    for(let node of cEl){
+        node.addEventListener("mouseenter", ()=>{
+            changeStyle(Number(node.dataset.columns), true);
         })
-        cEl[i].addEventListener("mouseleave", ()=>{
+        node.addEventListener("mouseleave", ()=>{
+            changeStyle(Number(node.dataset.columns), false);
         })
     }
 
