@@ -1,6 +1,24 @@
-.root-div.dark{
-    background-color: #1C1C1F;
+:root{
+    --back-color: #5383e3;
+    --desktop-button-color: #202d37;
+    --input-color: white;
+    --input-text-color: black;
+    --community-color: white;
+    --community-font-color: black;
+    --community-hover-color: #f3f3f3;
+    --footer-font-color: white;
+    --footer-explain-color: white;
+    --community-border-color: rgb(240, 240, 240);
 }
-.main-button.dark{
-    background-color: #5383E8;
+:root.dark{
+    --back-color: #1C1C1F;
+    --desktop-button-color: #5383e3;
+    --input-color: #31313c;
+    --input-text-color: white;
+    --community-color: #31313C;
+    --community-font-color: white;
+    --community-hover-color: #282830;
+    --footer-font-color: #9E9EB1;
+    --footer-explain-color: #7b7a8e;
+    --community-border-color: #1c1c1f
 }

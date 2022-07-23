@@ -1,6 +1,6 @@
 .community{
     margin: 100px auto 0 auto;
-    background-color: white;
+    background-color: var(--community-color);
     width: 1080px;
     height: 465px;
 }
@@ -11,6 +11,7 @@
     grid-template-columns: repeat(2, 540px);
 }
 .community--title{
+    color: var(--community-font-color);
     height: 50px;
     display: flex;
     align-items: center;
@@ -22,12 +23,17 @@
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
-    border-top: 1px solid rgb(240, 240, 240);
+    border-top: 1px solid var(--community-border-color);
     cursor: pointer;
     text-decoration: none;
 }
 .community--content:hover{
-    background-color: #f3f3f3;
+    background-color: var(--community-hover-color);
+}
+.community--content:hover .community--content--title--text{
+    text-decoration: underline;
+    text-decoration-color: #5383e3;
+    color: #5383e3;   
 }
 .community--content--index{
     justify-content: center;
@@ -36,12 +42,12 @@
     display: flex;
     align-items: center;
     font-weight: bold;
-    color: black;
+    color: var(--community-font-color);
 }
 .community--content--index2{
     justify-content: center;
     flex-basis: 55px;
-    color: black;
+    color: var(--community-font-color);
     font-style: oblique;
     display: flex;
     align-items: center;
@@ -84,5 +90,5 @@
 }
 .community--content--title--text{
     text-decoration: none;
-    color: black;
+    color: var(--community-font-color);
 }

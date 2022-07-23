@@ -7,11 +7,11 @@ function Main(){
             <img src="https://opgg-static.akamaized.net/logo/20220704125408.e18db513dd164977be062de32cde10a6.png?image=q_auto,f_webp,w_auto&v=1657873251164" alt="icon" className="main-image" />
             <div className="main-search">
                 <div className="main-language">
-                    <p className="main-language--p">Region</p>
+                    <span className="main-language--p">Region</span>
                     <div className="main-language-modal"><span className="main-language-modal--span">Korea</span><img src="triangle2.png" alt='icon' className="main-language-modal--img"/></div>
                 </div>
                 <div className="main-search-input">
-                    <p className="main-search-input--p">Search</p>
+                    <p className="main-search-input--p">HOME Search</p>
                     <input type="text" placeholder='소환사명, 소환사명, ...' className="main-search-input--input" />
                 </div>
                 <img src="https://s-lol-web.op.gg/images/icon/icon-gg.svg" alt="icon" className="main-language-icon" />

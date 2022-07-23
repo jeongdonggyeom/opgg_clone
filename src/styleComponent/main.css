@@ -1,9 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 .main-search{
     display: grid;
-    background-color: white;
+    background-color: var(--input-color);
     border-radius: 50px;
     width: 800px;
-    height: 70px;
+    height: 60px;
     margin: 0 auto;
     margin-top: 50px;
     grid-template-columns: 200px 500px 100px;
@@ -12,6 +19,10 @@
 .main-language{
     margin-left: 30px;
     flex-direction: column;
+    margin-top: 10px;
+}
+.main-language-modal{
+    margin-top: 7px;
 }
 .main-language-modal--img{
     width: 12px;
@@ -35,20 +46,26 @@
 .main-search-input--input{
     border: none;
     width: 470px;
+    background-color: var(--input-color);
+    margin-top: 5px;
 }
 .main-search-input--input:focus{
     outline: none;
 }
 .main-search-input--p{
+    color: var(--input-text-color);
     font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
 }
 .main-language--p{
+    color: var(--input-text-color);
     font-weight: bold;
 }
 .main-language-icon{
     margin: auto auto;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 .main-button{
     display: flex;
@@ -58,7 +75,7 @@
     margin-top: 30px;
     width: 192px;
     height: 40px;
-    background-color: #202d37;
+    background-color: var(--desktop-button-color);
     font-size: 12px;
     border: none;
     border-radius: 5px;

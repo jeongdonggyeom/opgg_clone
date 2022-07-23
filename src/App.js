@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Search from './component/search';
 
 function App() {
+
   return (
     <BrowserRouter>
       <Routes>

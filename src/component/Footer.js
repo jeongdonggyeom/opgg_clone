@@ -1,10 +1,10 @@
 import '../styleComponent/footer.css'
 
-function Footer(){
+function Footer(props){
     return(
         <footer className="footer-root">
             <div className="footer-div">
-                <img src="https://s-lol-web.op.gg/images/icon/icon-opgglogo-white.svg?v=1658292954524" alt="icon" className="footer-logoImg" />
+                <img src={props.img} alt="icon" className="footer-logoImg" />
                 <div className="footer-category1">
                     <p>OP.GG</p>
                     <a href="https://www.op.gg/about">About OP.GG</a>
@@ -14,20 +14,20 @@ function Footer(){
                 </div>
                 <div className="footer-category1">
                     <p>Products</p>
-                    <a href="localhost:3000/">리그오브레전드<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://duo.op.gg/">Duo<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://qwer.gg/ko">QWER (이스포츠 전적)<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://valorant.op.gg/">발로란트<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://pubg.op.gg/">배틀그라운드<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://overwatch.op.gg/">오버워치<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://er.op.gg/">이터널 리턴<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://talk.op.gg/">톡피지지<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://op.gg/desktop/">데스크톱<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
+                    <a href="localhost:3000/">리그오브레전드<img src={props.footer} alt="icon" /></a>
+                    <a href="https://duo.op.gg/">Duo<img src={props.footer} alt="icon" /></a>
+                    <a href="https://qwer.gg/ko">QWER (이스포츠 전적)<img src={props.footer} alt="icon" /></a>
+                    <a href="https://valorant.op.gg/">발로란트<img src={props.footer} alt="icon" /></a>
+                    <a href="https://pubg.op.gg/">배틀그라운드<img src={props.footer} alt="icon" /></a>
+                    <a href="https://overwatch.op.gg/">오버워치<img src={props.footer} alt="icon" /></a>
+                    <a href="https://er.op.gg/">이터널 리턴<img src={props.footer} alt="icon" /></a>
+                    <a href="https://talk.op.gg/">톡피지지<img src={props.footer} alt="icon" /></a>
+                    <a href="https://op.gg/desktop/">데스크톱<img src={props.footer} alt="icon" /></a>
                 </div>
                 <div className="footer-category">
                     <p>Apps</p>
-                    <a href="https://play.google.com/store/apps/details?id=gg.op.lol.android&referrer=utm_source%3Dadblock%26utm_medium%3Dbanner">OP.GG Android App<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon" /></a>
-                    <a href="https://apps.apple.com/kr/app/op-gg-%EC%98%A4%ED%94%BC%EC%A7%80%EC%A7%80/id605722237">OP.GG iOS App<img src="https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340" alt="icon"/></a>
+                    <a href="https://play.google.com/store/apps/details?id=gg.op.lol.android&referrer=utm_source%3Dadblock%26utm_medium%3Dbanner">OP.GG Android App<img src={props.footer} alt="icon" /></a>
+                    <a href="https://apps.apple.com/kr/app/op-gg-%EC%98%A4%ED%94%BC%EC%A7%80%EC%A7%80/id605722237">OP.GG iOS App<img src={props.footer} alt="icon"/></a>
                     <a href="https://play.google.com/store/apps/details?id=gg.ifi.playtime">IFI.GG Android App</a>
                     <a href="https://apps.apple.com/kr/app/id1455300411">IFI.GG iOS App</a>
                 </div>

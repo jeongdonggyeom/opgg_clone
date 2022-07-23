@@ -2,20 +2,12 @@ import "../styleComponent/nav.css";
 import { useState } from 'react';
 import Modal from "./Modal";
 
-function Nav(){
+function Nav(props){
 
     const [modal, setModal] = useState(false);
 
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        document.documentElement.classList.add("dark")
-    }
-    
     const mo = () => {
         setModal(modal ? false : true);
-    }
-    
-    const changeMode = () =>{
-        document.documentElement.classList.toggle("dark")
     }
 
     return(
@@ -73,8 +65,8 @@ function Nav(){
                     <img src="https://s-lol-web.op.gg/images/icon/icon-more.svg?v=1655280878465" className="moreButton--img" alt="icon" />
                 </button>
                 <div className={"nav--language"}>
-                    <button onClick={changeMode} style={{ backgroundColor: '#28344E', display: "flex", border: "none"}}>
-                        <img className="nav--language-mode" src="https://s-lol-web.op.gg/images/icon/icon-lightmode.svg?image=q_auto,f_webp,w_48&v=1658292954524https://s-lol-web.op.gg/images/icon/icon-lightmode.svg?image=q_auto,f_webp,w_48&v=1658292954524" alt="icon"/>
+                    <button onClick={props.func} style={{ backgroundColor: '#28344E', display: "flex", border: "none"}}>
+                        <img className="nav--language-mode" src={props.img} alt="icon"/>
                     </button>
                     <img src={"https://s-lol-web.op.gg/images/icon/icon-world-light-blue.svg?v=1654157118862"} className={"nav--language--img"} alt={"icon"}/>
                     <button className={"nav--language--button"} >
