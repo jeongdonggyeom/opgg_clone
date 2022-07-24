@@ -48,6 +48,7 @@
     width: 470px;
     background-color: var(--input-color);
     margin-top: 5px;
+    color: var(--input-text-color)
 }
 .main-search-input--input:focus{
     outline: none;

@@ -1,5 +1,6 @@
 export default[
     {
+        index: 0,
         name: '강서구청장',
         level: 466,
         tier: 'gold',

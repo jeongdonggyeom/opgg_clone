@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import Nav from "./Nav";
 
 function Search()
 {
@@ -7,6 +8,7 @@ function Search()
 
     return(
         <div>
+            <Nav/>
             <div className="soloRank">
                 
             </div>

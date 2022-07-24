@@ -1,6 +1,14 @@
 import '../styleComponent/main.css'
 
-function Main(){
+function Main(props){
+
+    let input;
+
+    const search = (e) =>{
+        if(e.key === 'Enter'){
+            props.func(input);
+        }
+    }
 
     return(
         <div className={"main-root"}>
@@ -12,7 +20,7 @@ function Main(){
                 </div>
                 <div className="main-search-input">
                     <p className="main-search-input--p">HOME Search</p>
-                    <input type="text" placeholder='소환사명, 소환사명, ...' className="main-search-input--input" />
+                    <input type="text" placeholder='소환사명, 소환사명, ...' className="main-search-input--input" onChange={(e)=>{input = e.target.value}} onKeyDown={search} />
                 </div>
                 <img src="https://s-lol-web.op.gg/images/icon/icon-gg.svg" alt="icon" className="main-language-icon" />
             </div>
