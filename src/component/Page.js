@@ -2,38 +2,15 @@ import Nav from "./Nav";
 import Main from './Main';
 import Community from "./Community";
 import Footer from "./Footer";
-import { useState } from "react";
+import { createContext } from "react";
 import user from './userData';
 import { useNavigate } from 'react-router-dom';
+import darkmode from "./context";
 
 function Page()
-{ 
-    const [darkmode, setDarkmode] = useState({
-        state: false,
-        img: 'https://s-lol-web.op.gg/images/icon/icon-opgglogo-white.svg?v=1658292954524',
-        navimg: 'https://s-lol-web.op.gg/images/icon/icon-lightmode.svg?image=q_auto,f_webp,w_48&v=1658292954524',
-        footerimg: 'https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340'
-    })
-
+{
     const changeMode = () => {
-        if(darkmode.state === true){
-            setDarkmode(()=>({
-                state: false,
-                img: 'https://s-lol-web.op.gg/images/icon/icon-opgglogo-white.svg?v=1658292954524',
-                navimg: 'https://s-lol-web.op.gg/images/icon/icon-lightmode.svg?image=q_auto,f_webp,w_48&v=1658292954524',
-                footerimg: 'https://s-lol-web.op.gg/images/icon/icon-game-white.svg?v=1658292954340'
-            }))
-            localStorage.setItem('mode', '0')
-        }
-        if(darkmode.state === false){
-            setDarkmode(()=>({
-                state: true,
-                img: 'https://s-lol-web.op.gg/images/icon/icon-opgglogo-gray.svg?v=1658394404870',
-                navimg: 'https://s-lol-web.op.gg/images/icon/icon-darkmode.svg?image=q_auto,f_webp,w_48&v=1658394404870',
-                footerimg: 'https://s-lol-web.op.gg/images/icon/icon-game.svg?v=1658394404870',
-            }))
-            localStorage.setItem('mode', '1')
-        }
+        darkmode.state === true ? localStorage.setItem('mode', '0') : localStorage.setItem('mode', '1');
         document.querySelector('html').classList.toggle('dark');
     }
 
