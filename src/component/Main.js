@@ -1,15 +1,6 @@
 import '../styleComponent/main.css'
 
-function Main(props){
-
-    let input;
-
-    const search = (e) =>{
-        if(e.key === 'Enter'){
-            props.func(input);
-        }
-    }
-
+function Main(){
     return(
         <div className={"main-root"}>
             <img src="https://opgg-static.akamaized.net/logo/20220704125408.e18db513dd164977be062de32cde10a6.png?image=q_auto,f_webp,w_auto&v=1657873251164" alt="icon" className="main-image" />
@@ -20,7 +11,7 @@ function Main(props){
                 </div>
                 <div className="main-search-input">
                     <p className="main-search-input--p">HOME Search</p>
-                    <input type="text" placeholder='소환사명, 소환사명, ...' className="main-search-input--input" onChange={(e)=>{input = e.target.value}} onKeyDown={search} />
+                    <input type="text" placeholder='소환사명, 소환사명, ...' className="main-search-input--input"/>
                 </div>
                 <img src="https://s-lol-web.op.gg/images/icon/icon-gg.svg" alt="icon" className="main-language-icon" />
             </div>
