@@ -1,4 +1,4 @@
-import Page from './component/Page';
+import Page from './component/mainPage/Page';
 import './styleComponent/app.css';
 import './styleComponent/darkmode.css'
 

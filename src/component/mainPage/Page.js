@@ -1,6 +1,6 @@
-import Nav from "./Nav";
+import Nav from "../Nav";
 import Main from './Main';
-import Community from "./Community";
+import Community from "./PreCommunity";
 import Footer from "./Footer";
 import { useState } from 'react';
 
