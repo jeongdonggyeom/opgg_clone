@@ -1,4 +1,4 @@
-import '../styleComponent/footer.css'
+import '../../styleComponent/footer.css'
 
 function Footer(props){
     return(
@@ -36,12 +36,12 @@ function Footer(props){
                     <a href="https://www.op.gg/policies/privacy" style={{ fontWeight: "bold" }}>개인정보처리방침</a>
                     <a href="https://www.op.gg/policies/agreement">이용약관</a>
                     <a href="https://opggkr.helpscoutdocs.com/collection/121-league-of-legends">도움말</a>
-                    <a>문의/피드백</a>
+                    <a href='/'>문의/피드백</a>
                 </div>
                 <div className="footer-category" style={{ marginLeft: "70px", marginRight: "150px" }}>
                     <p>More</p>
-                    <a>제휴</a>
-                    <a>광고</a>
+                    <a href='/'>제휴</a>
+                    <a href='/'>광고</a>
                     <a href="https://www.opgg.team/">채용</a>
                 </div>
             </div>

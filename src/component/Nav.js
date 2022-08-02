@@ -1,6 +1,6 @@
 import "../styleComponent/nav.css";
 import { useState } from 'react';
-import Modal from "./Modal";
+import Modal from "./mainPage/Modal";
 
 function Nav(props){
 

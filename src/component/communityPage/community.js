@@ -3,8 +3,6 @@ import axios from 'axios';
 
 function Community()
 {
-    axios.get('/test')
-
     return(
         <div>
             

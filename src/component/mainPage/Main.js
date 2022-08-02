@@ -1,4 +1,4 @@
-import '../styleComponent/main.css'
+import '../../styleComponent/main.css'
 
 function Main(){
     return(
