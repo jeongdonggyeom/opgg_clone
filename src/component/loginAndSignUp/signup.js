@@ -9,23 +9,22 @@ export default function Signup()
     const [userEmail, setUserEmail] = useState('');
  
     const signup = () => {
-        axios.post("/user/create", {
-            userName: username,
-            userPass: userpass,
-            userBirth: userbirth,
-            userEmail: userEmail,
-        }).then((response)=>{
-            return response;
-        }).then((data)=>{
-            console.log(data);
+        const form = new FormData()
+        form.append('userName', username);
+        form.append('userPass', userpass);
+        form.append('userBirth', userbirth);
+        form.append('userEmail', userEmail);
+
+        axios.post("/user/create", form).then((response)=>{
+            console.log(response)
         }).catch((error)=>{
             console.log(error);
         })
+        console.log(username, userpass, userbirth, userEmail);
         setUsername('');
         setUserpass('');
         setUserbirth('');
         setUserEmail('');
-        console.log(username, userpass, userbirth, userEmail);
     }
 
     return(

@@ -2,27 +2,6 @@ import '../../styleComponent/preCommunity.css'
 
 function Community(){   
 
-    const cEl = document.querySelectorAll('.community--content');
-
-    const changeStyle = (index, flag) => {
-        if(flag){
-            cEl[index-1].style.color = "white"
-            return ;
-        }
-        
-        return ;
-    }
-
-    for(let node of cEl){
-        node.addEventListener("mouseenter", ()=>{
-            changeStyle(Number(node.dataset.columns), true);
-        })
-        node.addEventListener("mouseleave", ()=>{
-            changeStyle(Number(node.dataset.columns), false);
-        })
-    }
-
-
     return(
         <div className={"community"}>
             <span className={"community--title"}>OP.GG Talk 인기글</span>
