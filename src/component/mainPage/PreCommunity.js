@@ -1,4 +1,4 @@
-import '../../styleComponent/preCommunity.css'
+import '../../styleComponent/mainStyle/preCommunity.css'
 
 function Community(){   
 

@@ -1,4 +1,4 @@
-import '../../styleComponent/footer.css'
+import '../../styleComponent/mainStyle/footer.css'
 
 function Footer(props){
     return(

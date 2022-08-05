@@ -1,6 +1,6 @@
 import Page from './component/mainPage/Page';
-import './styleComponent/app.css';
-import './styleComponent/darkmode.css'
+import './styleComponent/mainStyle/app.css';
+import './styleComponent/mainStyle/darkmode.css'
 
 function App() {
   return (

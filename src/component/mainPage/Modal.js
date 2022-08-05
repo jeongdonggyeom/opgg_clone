@@ -1,4 +1,4 @@
-import '../../styleComponent/modal.css';
+import '../../styleComponent/mainStyle/modal.css';
 
 function Modal()
 {
