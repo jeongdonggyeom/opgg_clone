@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from 'react';
 import BirthInput from "./birthInput";
+import '../../styleComponent/loginAndSignupStyle/signup.css';
 
 export default function Signup()
 {
@@ -32,13 +33,15 @@ export default function Signup()
 
     return(
         <div className="signup-root">
-            {/* <input type="text" placeholder="userName" onChange={(e)=>{setUsername(e.target.value)}} value={username} />
-            <input type="text" placeholder="userPass" onChange={(e)=>{setUserpass(e.target.value)}} value={userpass} />
-            <input type="date" placeholder="userBirth" onChange={(e)=>{setUserbirth(e.target.value)}} value={userbirth} />
-            <input type="email" placeholder="userEmail" onChange={(e)=>{setUserEmail(e.target.value)}} value={userEmail} />
-            <button onClick={signup}>제출</button> */}
             <div className="signup-div">
                 <img src="https://member.op.gg/img_opgglogo.1924961d.svg" alt="icon" className="signup-img"/>
+                <div className="signup-circle-div">
+                    <div className="signup-circle"></div>
+                    <div className="signup-circle"></div>
+                    <div className="signup-circle"></div>
+                    <div className="signup-circle"></div>
+                    <div className="signup-circle"></div>
+                </div>
                 {sequence === 0 ? <BirthInput input={userbirth} setInput={setUserbirth} func={controlSequence} /> : <></>}
             </div>
         </div>
