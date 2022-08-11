@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 let index = 0;
 export default function BirthInput(props)
 {
-    let set = ['_', '_', '_', '_', '/', '_', '_', '/', '_', '_'];
-
     const [disable, setDisable] = useState(false);
     const [text, setText] = useState('생년월일 정보는 가입 연령 확인에만 이용됩니다.');
 
@@ -15,38 +13,6 @@ export default function BirthInput(props)
 
     const input = () => {
         props.func(1);
-    }
-
-    const inputClick = (e) => {
-        let str
-        if(set[index] !== '/' && index <= 10 && index !== 0){
-            set[index++] = e.target.value;
-        }
-        if(set[index] === '/' && index !== 0) {
-            index+=1
-            set[index++] = e.target.value;
-        }
-        for(let i=0;i<set.length;i++){
-            str += set[i];
-        }
-        e.target.value = str;
-    }
-
-    const inputBack = (e) => {
-        let str;
-        if(e.key === 8){
-            if(set[index] !== '/' && index <= 10){
-                set[index--] = '_';
-            }
-            if(set[index] === '/'){
-                index-=1;
-                set[index--] = '_';
-            }
-        }
-        for(let i=0;i<set.length;i++){
-            str += set[i];
-        }
-        e.target.value = str;
     }
 
     useEffect(()=>{
@@ -67,7 +33,7 @@ export default function BirthInput(props)
         <div className="birth-root">
             <p className="birth-p">생년월일 입력</p>
             <label>{today}</label>
-            <input type="tel" className="birth-input" onChange={(e)=>{props.setInput(e.target.value); inputClick(e)}} value={''} onClick={(e)=>{inputClick(e)}} onKeyDown={(e)=>{inputBack(e)}} />
+            <input type="tel" className="birth-input" onChange={(e)=>{props.setInput(e.target.value)}} value={''}/>
             <span className="birth-span">{text}</span>
             <button className="birth-button" onClick={input} disabled={disable}>다음</button>
             <span className="birth-span2">이미 회원이신가요?</span>
